@@ -32,7 +32,7 @@ window.CATEGORIAS = [
 
 window.PRODUCTOS = [
   // CEVICHES — 5
-  { id:'c1',categoria:'ceviches',nombre:'Ceviche MariaFlavia', descripción:'Fresco, leche de tigre, cebolla roja, camote y choclo.',precio:32,imagen:foto(31495669),tag:'Más pedido', popular:true },
+  { id:'c1',categoria:'ceviches',nombre:'Ceviche MariaFlavia',descripción:'Fresco, leche de tigre, cebolla roja, camote y choclo.',precio:32,imagen:foto(31495669),tag:'Más pedido', popular:true },
   { id:'c2',categoria:'ceviches',nombre:'Ceviche Christian',descripcion:'Pescado y mariscos frescos al limón, con los acompañamientos de casa.',precio:39,imagen:foto(31495672),tag:'Favorito' },
   { id:'c3',categoria:'ceviches',nombre:'Ceviche carretillero',descripcion:'Ceviche clásico coronado con crocante chicharrón de pescado.',precio:36,imagen:foto(28448389) },
   { id:'c4',categoria:'ceviches',nombre:'Ceviche de mariscos',descripcion:'Selección de mariscos con leche de tigre y ají al gusto.',precio:42,imagen:foto(31495671) },
