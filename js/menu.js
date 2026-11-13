@@ -6,9 +6,9 @@
    Los dibujos SVG siguen disponibles como respaldo.
    ========================================================= */
 window.RESTAURANTE = {
-  nombre: 'Gianpipi',
+  nombre: 'Christian',
   lema: 'Antes me llegaba al cuete pero ahora es mi causa.',
-  whatsapp: '51999999999', // CONFIGURAR: número de WhatsApp de la cevichería, sin +, ej.: 51987654321
+  whatsapp: '51977401521', // CONFIGURAR: número de WhatsApp de la cevichería, sin +, ej.: 51987654321
   direccion: 'Dirección por configurar',
   sedes: ['Local principal'],
   horario: 'Horario por confirmar',
