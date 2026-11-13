@@ -6,9 +6,9 @@
    Los dibujos SVG siguen disponibles como respaldo.
    ========================================================= */
 window.RESTAURANTE = {
-  nombre: 'La Ola Marina',
-  lema: 'Una ola de sabor en cada plato.',
-  whatsapp: '', // CONFIGURAR: número de WhatsApp de la cevichería, sin +, ej.: 51987654321
+  nombre: 'Gianpipi',
+  lema: 'Antes me llegaba al cuete pero ahora es mi causa.',
+  whatsapp: '51999999999', // CONFIGURAR: número de WhatsApp de la cevichería, sin +, ej.: 51987654321
   direccion: 'Dirección por configurar',
   sedes: ['Local principal'],
   horario: 'Horario por confirmar',
