@@ -18,7 +18,7 @@ window.RESTAURANTE = {
 const foto = (id, w=900) => `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=${w}`;
 
 window.BANNERS = [
-  { kicker: 'CEVICHERÍA MARIA FLAVIA', first: 'Flavia', accent: 'y', last: 'Christian.', text: 'Ceviches frescos, platos que sorprenden y el mejor plan para disfrutar en buena compañía.', cta: 'Explorar la carta', image: foto(31495669,1500), imageAlt:'Ceviche peruano con pescado, maíz y acompañamientos', fallback:'img/plato-c1.svg', tag:'Fresco y delicioso', color:'teal' },
+  { kicker: 'CEVICHERÍA OLA MARINA', first: 'SABOR', accent: '', last: 'MARINO.', text: 'Ceviches frescos, platos que sorprenden y el mejor plan para disfrutar en buena compañía.', cta: 'Explorar la carta', image: foto(31495669,1500), imageAlt:'Ceviche peruano con pescado, maíz y acompañamientos', fallback:'img/plato-c1.svg', tag:'Fresco y delicioso', color:'teal' },
   { kicker: 'LOS FAVORITOS PARA COMPARTIR', first: 'El plan es', accent: 'compartir', last: 'la ola.', text: 'Dúos y tríos marinos que reúnen lo mejor del ceviche, las frituras y la sazón peruana.', cta: 'Ver dúos y tríos', image: 'img/plato-p1.jpg', imageAlt:'Ceviche acompañado de fritura de pescado y mariscos', fallback:'img/plato-p1.svg', tag:'Pide para compartir', color:'coral', anchor:'compartir' },
   { kicker: 'TRADICIÓN QUE ENAMORA', first: 'Mucho', accent: 'sabor', last: 'peruano.', text: 'Desde un lomo saltado jugoso hasta nuestros clásicos con mariscos. Encuentra tu nuevo favorito.', cta: 'Ver platos criollos', image: foto(28503582,1500), imageAlt:'Lomo saltado peruano con papas fritas y arroz', fallback:'img/plato-r1.svg', tag:'Sazón peruana', color:'yellow', anchor:'criollos' }
 ];
@@ -32,8 +32,8 @@ window.CATEGORIAS = [
 
 window.PRODUCTOS = [
   // CEVICHES — 5
-  { id:'c1',categoria:'ceviches',nombre:'Ceviche MariaFlavia',descripción:'Fresco, leche de tigre, cebolla roja, camote y choclo.',precio:32,imagen:foto(31495669),tag:'Más pedido', popular:true },
-  { id:'c2',categoria:'ceviches',nombre:'Ceviche Christian',descripcion:'Pescado y mariscos frescos al limón, con los acompañamientos de casa.',precio:39,imagen:foto(31495672),tag:'Favorito' },
+  { id:'c1',categoria:'ceviches',nombre:'Ceviche Clásico',descripción:'Fresco, leche de tigre, cebolla roja, camote y choclo.',precio:32,imagen:foto(31495669),tag:'Más pedido', popular:true },
+  { id:'c2',categoria:'ceviches',nombre:'Ceviche Mixto',descripcion:'Pescado y mariscos frescos al limón, con los acompañamientos de casa.',precio:39,imagen:foto(31495672),tag:'Favorito' },
   { id:'c3',categoria:'ceviches',nombre:'Ceviche carretillero',descripcion:'Ceviche clásico coronado con crocante chicharrón de pescado.',precio:36,imagen:foto(28448389) },
   { id:'c4',categoria:'ceviches',nombre:'Ceviche de mariscos',descripcion:'Selección de mariscos con leche de tigre y ají al gusto.',precio:42,imagen:foto(31495671) },
   { id:'c5',categoria:'ceviches',nombre:'Ceviche apaltado de langostinos',descripcion:'Langostinos al limón, palta fresca, cebolla y toque de ají.',precio:38,imagen:'img/plato-c5.jpg' },
